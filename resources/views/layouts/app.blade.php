@@ -19,6 +19,18 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.0/css/flag-icon.min.css">
+    <link rel="stylesheet" href="{{ asset('nav/css/cs-skin-elastic.css') }}">
+    <link rel="stylesheet" href="{{ asset('nav/assets/css/lib/datatable/dataTables.bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('nav/assets/css/style.css') }}">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
     <!-- Custom styles for this template-->
     <link href="{{ asset('auth/css/sb-admin-2.min.css') }}" rel="stylesheet">
 
@@ -115,8 +127,24 @@
     <script src="{{ asset('auth/js/demo/chart-area-demo.js') }}"></script>
     <script src="{{ asset('auth/js/demo/chart-pie-demo.js') }}"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-match-height@0.7.2/dist/jquery.matchHeight.min.js"></script>
+
+    <script src="{{ asset('nav/assets/js/main.js') }}"></script>
+    <script src="{{ asset('nav/assets/js/lib/data-table/datatables.min.js') }}"></script>
+    <script src="{{ asset('nav/assets/js/lib/data-table/dataTables.bootstrap.min.js') }}"></script>
+    <script src="{{ asset('nav/assets/js/lib/data-table/dataTables.buttons.min.js') }}"></script>
+    <script src="{{ asset('nav/assets/js/lib/data-table/buttons.bootstrap.min.js') }}"></script>
+    <script src="{{ asset('nav/assets/js/lib/data-table/jszip.min.js') }}"></script>
+    <script src="{{ asset('nav/assets/js/lib/data-table/vfs_fonts.js') }}"></script>
+    <script src="{{ asset('nav/assets/js/lib/data-table/buttons.html5.min.js') }}"></script>
+    <script src="{{ asset('nav/assets/js/lib/data-table/buttons.print.min.js') }}"></script>
+    <script src="{{ asset('nav/assets/js/lib/data-table/buttons.colVis.min.js') }}"></script>
+    <script src="{{ asset('assets/js/init/datatables-init.js') }}"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-
 </html>

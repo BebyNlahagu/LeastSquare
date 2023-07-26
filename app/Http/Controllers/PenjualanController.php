@@ -4,13 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Models\Penjualan;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class PenjualanController extends Controller
 {
     public function home(){
-
-        $penjualan = Penjualan::get();
-        return view('penjualan.index',['data'=> $penjualan]);
+        $penjualan = Penjualan::paginate(6);
+        return view('penjualan.index',compact('penjualan'));
     }
 
     public function tambah(){
