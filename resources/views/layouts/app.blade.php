@@ -124,8 +124,6 @@
     <script src="{{ asset('auth/vendor/chart.js/Chart.min.js') }}"></script>
 
     <!-- Page level custom scripts -->
-    <script src="{{ asset('auth/js/demo/chart-area-demo.js') }}"></script>
-    <script src="{{ asset('auth/js/demo/chart-pie-demo.js') }}"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.4/dist/umd/popper.min.js"></script>
@@ -145,6 +143,8 @@
     <script src="{{ asset('assets/js/init/datatables-init.js') }}"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    @stack('js')
 
 </body>
 </html>
