@@ -14,14 +14,26 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
         <a class="nav-link" href="{{ route('dashboard') }}">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <i class="fas fa-fw fa-house"></i>
             <span>Dashboard</span></a>
     </li>
 
     <li class="nav-item active">
         <a class="nav-link" href="{{ route('penjualan') }}">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <i class="fas fa-fw fa-table"></i>
             <span>Data Penjualan</span></a>
+    </li>
+
+    <li class="nav-item active">
+        <a class="nav-link" href="{{ route('grafik') }}">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Grafik Penjualan</span></a>
+    </li>
+
+    <li class="nav-item active">
+        <a class="nav-link" href="{{ route('forecasting') }}">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>forecasting</span></a>
     </li>
 
     <!-- Divider -->

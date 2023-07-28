@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PenjualanController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ForecastingController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -34,6 +35,11 @@ Route::controller(PenjualanController::class)->prefix('penjualan')->group(functi
 
     Route::get('hapus/{id}','hapus')->name('penjualan.hapus');
 
+    Route::get('grafik','grafik')->name('grafik');
+});
+
+Route::controller(ForecastingController::class)->prefix('forecasting')->group(function(){
+    Route::get('','prediksi')->name('forecasting');
 });
 
 Route::controller(AuthController::class)->group(function(){

@@ -387,56 +387,6 @@
 
     @endsection
     @push('js')
-        <script src="{{ asset('auth/js/demo/chart-area-demo.js') }}"></script>
-        <script src="{{ asset('auth/js/demo/chart-bar-demo.js') }}"></script>
-        <script src="{{ asset('auth/js/demo/chart-pie-demo.js') }}"></script>
         <script src="https://code.highcharts.com/highcharts.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script>
-            // Data retrieved https://en.wikipedia.org/wiki/List_of_cities_by_average_temperature
-            Highcharts.chart('container', {
-                chart: {
-                    type: 'line'
-                },
-                title: {
-                    text: 'Grafik Penjualan Baterai Mobil'
-                },
-                xAxis: {
-                    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-                },
-                yAxis: {
-                    title: {
-                        text: 'Banyak Penjualan'
-                    }
-                },
-                plotOptions: {
-                    line: {
-                        dataLabels: {
-                            enabled: true
-                        },
-                        enableMouseTracking: false
-                    }
-                },
-                series: [{
-                    name: 'Gs',
-                    data: [16.0, 18.2, 23.1, 27.9, 32.2, 36.4, 39.8, 38.4, 35.5, 29.2,
-                        22.0, 17.8
-                    ]
-                },
-                {
-                    name: 'Vitra',
-                    data: [20,11,13,7,10,11,14,17,19,21,19,11]
-                },
-                {
-                    name: 'Incoe',
-                    data: [-2.9, -3.6, -0.6, 4.8, 10.2, 14.5, 17.6, 16.5, 12.0, 6.5,
-                        2.0, -0.9]
-                },
-                {
-                    name: 'RCA',
-                    data: [8,23,22,18,14,17,19,21,10,11,14,12]
-                }
-            ]
-            });
-        </script>
+        {{--  --}}
     @endpush

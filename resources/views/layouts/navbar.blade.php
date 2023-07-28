@@ -169,7 +169,7 @@
                     <br>
                     <small>{{ auth()->user()->level }}</small>
                 </span>
-                <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
+                <img class="img-profile rounded-circle" src="{{ asset('auth/img/undraw_profile.svg') }}">
             </a>
             <!-- Dropdown - User Information -->
             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">

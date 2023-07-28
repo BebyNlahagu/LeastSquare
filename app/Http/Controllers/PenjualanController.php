@@ -51,4 +51,8 @@ class PenjualanController extends Controller
         return redirect()->route('penjualan');
     }
 
+    public function grafik(){
+        return view('grafik.grafik');
+    }
+
 }
