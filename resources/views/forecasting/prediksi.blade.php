@@ -12,7 +12,7 @@
                   <div class="form-floating">
                     <div class="form-floating">
                         <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-                          <option selected>Pilih Bulan</option>
+                          <option selected>Jenis Baterai</option>
                           <option value="1">GS</option>
                           <option value="2">Vitra</option>
                           <option value="3">Incoe</option>\
@@ -39,11 +39,11 @@
                       <option value="5">November</option>
                       <option value="6">Desember</option>
                     </select>
-                    <label for="floatingSelectGrid">Silahkan Dipilih</label>
+                    <label for="floatingSelectGrid">Periode</label>
                   </div>
                 </div>
               </div>
-              <button type="submit" class="btn btn-primary mt-3">Prediksi</button>
+              <button type="submit" class="btn btn-primary mt-3">Hitung</button>
         </div>
     </div>
 </div>

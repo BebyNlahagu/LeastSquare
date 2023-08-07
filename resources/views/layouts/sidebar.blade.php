@@ -33,7 +33,7 @@
     <li class="nav-item active">
         <a class="nav-link" href="{{ route('forecasting') }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>forecasting</span></a>
+            <span>Peramalan</span></a>
     </li>
 
     <!-- Divider -->
