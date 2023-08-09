@@ -48,6 +48,9 @@ Route::controller(AuthController::class)->group(function(){
 
     Route::get('login','login')->name('login');
     Route::post('masuk','masuk')->name('login.masuk');
+    Route::post('logout','logout')->name('logout');
+
+    Route::get('profil','profil')->name('profil');
 });
 
 

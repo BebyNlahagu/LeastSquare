@@ -35,8 +35,10 @@
                                     <td>{{ $row->incoe }}</td>
                                     <td>{{ $row->rca }}</td>
                                     <td>
-                                        <a href="{{ route('penjualan.edit',$row->id) }}" class="btn btn-warning">Edit</a>
-                                        <a href="{{ route('penjualan.hapus',$row->id) }}" class="btn btn-danger">Hapus</a>
+                                        <a href="{{ route('penjualan.edit',$row->id) }}" class="btn btn-warning" >
+                                            <i class="fas fa-eye"></i></a>
+                                        <a href="{{ route('penjualan.hapus',$row->id) }}" class="btn btn-danger">
+                                            <i class="fas fa-trash"></i></a>
                                     </td>
                                 </tr>
                             @endforeach
@@ -47,4 +49,6 @@
             </div>
         </div>
     </div>
+
+<!-- Button trigger modal --
 @endsection
